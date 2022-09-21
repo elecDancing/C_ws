@@ -1,0 +1,5 @@
+/home/guoguo/C_ws/source/Chapter 4/build/CMakeFiles/rebuild_cache.dir
+/home/guoguo/C_ws/source/Chapter 4/build/CMakeFiles/edit_cache.dir
+/home/guoguo/C_ws/source/Chapter 4/build/CMakeFiles/arrayone.dir
+/home/guoguo/C_ws/source/Chapter 4/build/CMakeFiles/ptrstr.dir
+/home/guoguo/C_ws/source/Chapter 4/build/CMakeFiles/addpntrs.dir

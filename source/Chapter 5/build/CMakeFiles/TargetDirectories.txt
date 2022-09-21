@@ -1,0 +1,3 @@
+/home/guoguo/C_ws/source/Chapter 5/build/CMakeFiles/rebuild_cache.dir
+/home/guoguo/C_ws/source/Chapter 5/build/CMakeFiles/edit_cache.dir
+/home/guoguo/C_ws/source/Chapter 5/build/CMakeFiles/formore.dir

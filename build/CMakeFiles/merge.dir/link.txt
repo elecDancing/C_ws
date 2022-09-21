@@ -1,0 +1,1 @@
+/usr/bin/g++  -g  -rdynamic CMakeFiles/merge.dir/sort/merge.cpp.o  -o merge 

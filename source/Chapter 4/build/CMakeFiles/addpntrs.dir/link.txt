@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/addpntrs.dir/addpntrs.cpp.o  -o addpntrs 

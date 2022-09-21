@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/ptrstr.dir/ptrstr.cpp.o  -o ptrstr 
