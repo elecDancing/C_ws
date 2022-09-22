@@ -1,1 +1,1 @@
-/usr/bin/g++  -g  -rdynamic CMakeFiles/insertSort.dir/sort/insertSort.cpp.o  -o insertSort 
+/usr/bin/c++    -rdynamic CMakeFiles/insertSort.dir/sort/insertSort.cpp.o  -o insertSort 

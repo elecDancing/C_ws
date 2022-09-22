@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/jguo/Nutstore Files/我的坚果云/C_ws"
+CMAKE_SOURCE_DIR = "/home/jguo/Nutstore Files/坚果云/C_ws"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/jguo/Nutstore Files/我的坚果云/C_ws/build"
+CMAKE_BINARY_DIR = "/home/jguo/Nutstore Files/坚果云/C_ws/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/我的坚果云/C_ws/build/CMakeFiles" "/home/jguo/Nutstore Files/我的坚果云/C_ws/build/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" "/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/我的坚果云/C_ws/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named merge
-
-# Build rule for target.
-merge: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 merge
-.PHONY : merge
-
-# fast build rule for target.
-merge/fast:
-	$(MAKE) -f CMakeFiles/merge.dir/build.make CMakeFiles/merge.dir/build
-.PHONY : merge/fast
-
-#=============================================================================
 # Target rules for targets named quickSort
 
 # Build rule for target.
@@ -135,6 +122,19 @@ quickSort: cmake_check_build_system
 quickSort/fast:
 	$(MAKE) -f CMakeFiles/quickSort.dir/build.make CMakeFiles/quickSort.dir/build
 .PHONY : quickSort/fast
+
+#=============================================================================
+# Target rules for targets named merge
+
+# Build rule for target.
+merge: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 merge
+.PHONY : merge
+
+# fast build rule for target.
+merge/fast:
+	$(MAKE) -f CMakeFiles/merge.dir/build.make CMakeFiles/merge.dir/build
+.PHONY : merge/fast
 
 #=============================================================================
 # Target rules for targets named insertSort
@@ -161,6 +161,19 @@ mergeSort: cmake_check_build_system
 mergeSort/fast:
 	$(MAKE) -f CMakeFiles/mergeSort.dir/build.make CMakeFiles/mergeSort.dir/build
 .PHONY : mergeSort/fast
+
+#=============================================================================
+# Target rules for targets named mergeVector
+
+# Build rule for target.
+mergeVector: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mergeVector
+.PHONY : mergeVector
+
+# fast build rule for target.
+mergeVector/fast:
+	$(MAKE) -f CMakeFiles/mergeVector.dir/build.make CMakeFiles/mergeVector.dir/build
+.PHONY : mergeVector/fast
 
 #=============================================================================
 # Target rules for targets named selectionSort
@@ -296,6 +309,33 @@ sort/mergeSort.cpp.s:
 	$(MAKE) -f CMakeFiles/mergeSort.dir/build.make CMakeFiles/mergeSort.dir/sort/mergeSort.cpp.s
 .PHONY : sort/mergeSort.cpp.s
 
+sort/mergeVector.o: sort/mergeVector.cpp.o
+
+.PHONY : sort/mergeVector.o
+
+# target to build an object file
+sort/mergeVector.cpp.o:
+	$(MAKE) -f CMakeFiles/mergeVector.dir/build.make CMakeFiles/mergeVector.dir/sort/mergeVector.cpp.o
+.PHONY : sort/mergeVector.cpp.o
+
+sort/mergeVector.i: sort/mergeVector.cpp.i
+
+.PHONY : sort/mergeVector.i
+
+# target to preprocess a source file
+sort/mergeVector.cpp.i:
+	$(MAKE) -f CMakeFiles/mergeVector.dir/build.make CMakeFiles/mergeVector.dir/sort/mergeVector.cpp.i
+.PHONY : sort/mergeVector.cpp.i
+
+sort/mergeVector.s: sort/mergeVector.cpp.s
+
+.PHONY : sort/mergeVector.s
+
+# target to generate assembly for a file
+sort/mergeVector.cpp.s:
+	$(MAKE) -f CMakeFiles/mergeVector.dir/build.make CMakeFiles/mergeVector.dir/sort/mergeVector.cpp.s
+.PHONY : sort/mergeVector.cpp.s
+
 sort/quickSort.o: sort/quickSort.cpp.o
 
 .PHONY : sort/quickSort.o
@@ -357,10 +397,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... merge"
 	@echo "... quickSort"
+	@echo "... merge"
 	@echo "... insertSort"
 	@echo "... mergeSort"
+	@echo "... mergeVector"
 	@echo "... selectionSort"
 	@echo "... rebuild_cache"
 	@echo "... divideANDconquer"
@@ -376,6 +417,9 @@ help:
 	@echo "... sort/mergeSort.o"
 	@echo "... sort/mergeSort.i"
 	@echo "... sort/mergeSort.s"
+	@echo "... sort/mergeVector.o"
+	@echo "... sort/mergeVector.i"
+	@echo "... sort/mergeVector.s"
 	@echo "... sort/quickSort.o"
 	@echo "... sort/quickSort.i"
 	@echo "... sort/quickSort.s"

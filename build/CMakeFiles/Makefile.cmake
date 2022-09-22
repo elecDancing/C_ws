@@ -42,10 +42,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/merge.dir/DependInfo.cmake"
   "CMakeFiles/quickSort.dir/DependInfo.cmake"
+  "CMakeFiles/merge.dir/DependInfo.cmake"
   "CMakeFiles/insertSort.dir/DependInfo.cmake"
   "CMakeFiles/mergeSort.dir/DependInfo.cmake"
+  "CMakeFiles/mergeVector.dir/DependInfo.cmake"
   "CMakeFiles/selectionSort.dir/DependInfo.cmake"
   "CMakeFiles/divideANDconquer.dir/DependInfo.cmake"
   )

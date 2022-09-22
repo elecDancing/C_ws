@@ -4,11 +4,12 @@
  * @Author: xp.Zhang
  * @Date: 2022-09-16 11:49:56
  * @LastEditors: xp.Zhang
- * @LastEditTime: 2022-09-18 14:39:23
+ * @LastEditTime: 2022-09-21 22:39:55
  */
 //!归并排序
 //!分治的思想
 #include<iostream>
+#include<vector>
 using namespace std;
 //!归并排序Onlong（n）
 //!空间复杂度O(n)
@@ -20,7 +21,7 @@ using namespace std;
 
 
 //将左数组和右数组排序并合并
-void Merge(int A[], int L[], int leftCount, int R[], int rightCount){
+void Merge(vector<int>A, vector<int>L, int leftCount, vector<int>R, int rightCount){
 	int i = 0, j = 0, k = 0;//!must be intialzed to 0
 	//输入到该函数的L和R已近sorted
 	while(i < leftCount && j < rightCount){
@@ -35,31 +36,28 @@ void Merge(int A[], int L[], int leftCount, int R[], int rightCount){
 	while(j < rightCount)
 		A[k++] = R[j++];
 }
-void MergeSort(int A[], int n){
-	int mid, i, *L, *R;
+void MergeSort(vector<int>A, int n){
+	int mid, i;
+	vector<int>L,R;
 	if(n < 2)
 		return;//recursion base
 	mid = n >> 1;
 
-	L = new int[mid * sizeof(int)];
-	R = new int[(n - mid) * sizeof(int)];
 	for (i = 0; i < mid; ++i)
-		L[i] = A[i];
+		L.insert(L.begin()+i,A[i]);
 	for (i = mid; i < n; ++i)
-		R[i - mid] = A[i];
+		R.insert(R.begin()+i-mid,A[i]);
 
 	MergeSort(L, mid);
 	MergeSort(R, n - mid);
 	Merge(A, L, mid, R, n - mid);
 
-	delete[] L;
-	delete[] R;
 }
 	
 int main() {
-	int A[6] = {-2, 11, -4, 13, -5, -2}; 
+	vector<int> A = {-2, 11, -4, 13, -5, -2}; 
 	int i,numberOfElements;
-	numberOfElements = sizeof(A)/sizeof(A[0]); 
+	numberOfElements = A.size(); 
 
 	// Calling merge sort to sort the array. 
 	MergeSort(A,numberOfElements);

@@ -1,1 +1,1 @@
-/usr/bin/g++  -g  -rdynamic CMakeFiles/selectionSort.dir/sort/selectionSort.cpp.o  -o selectionSort 
+/usr/bin/c++    -rdynamic CMakeFiles/selectionSort.dir/sort/selectionSort.cpp.o  -o selectionSort 

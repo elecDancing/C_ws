@@ -19,6 +19,8 @@ include_directories(include)
 add_executable(insertSort sort/insertSort.cpp)
 add_executable(merge sort/merge.cpp)
 add_executable(mergeSort sort/mergeSort.cpp)
+add_executable(mergeVector sort/mergeVector.cpp)
+
 add_executable(selectionSort sort/selectionSort.cpp)
 # add_executable(bubbleSort sort/bubbleSort.cpp)
 add_executable(divideANDconquer sort/divideANDconquer.cpp)

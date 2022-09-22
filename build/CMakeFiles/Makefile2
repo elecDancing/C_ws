@@ -54,47 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/jguo/Nutstore Files/我的坚果云/C_ws"
+CMAKE_SOURCE_DIR = "/home/jguo/Nutstore Files/坚果云/C_ws"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/jguo/Nutstore Files/我的坚果云/C_ws/build"
-
-#=============================================================================
-# Target rules for target CMakeFiles/merge.dir
-
-# All Build rule for target.
-CMakeFiles/merge.dir/all:
-	$(MAKE) -f CMakeFiles/merge.dir/build.make CMakeFiles/merge.dir/depend
-	$(MAKE) -f CMakeFiles/merge.dir/build.make CMakeFiles/merge.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/jguo/Nutstore Files/我的坚果云/C_ws/build/CMakeFiles" --progress-num=5,6 "Built target merge"
-.PHONY : CMakeFiles/merge.dir/all
-
-# Include target in all.
-all: CMakeFiles/merge.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/merge.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/我的坚果云/C_ws/build/CMakeFiles" 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/merge.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/我的坚果云/C_ws/build/CMakeFiles" 0
-.PHONY : CMakeFiles/merge.dir/rule
-
-# Convenience name for target.
-merge: CMakeFiles/merge.dir/rule
-
-.PHONY : merge
-
-# clean rule for target.
-CMakeFiles/merge.dir/clean:
-	$(MAKE) -f CMakeFiles/merge.dir/build.make CMakeFiles/merge.dir/clean
-.PHONY : CMakeFiles/merge.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/merge.dir/clean
-
-.PHONY : clean
+CMAKE_BINARY_DIR = "/home/jguo/Nutstore Files/坚果云/C_ws/build"
 
 #=============================================================================
 # Target rules for target CMakeFiles/quickSort.dir
@@ -103,7 +66,7 @@ clean: CMakeFiles/merge.dir/clean
 CMakeFiles/quickSort.dir/all:
 	$(MAKE) -f CMakeFiles/quickSort.dir/build.make CMakeFiles/quickSort.dir/depend
 	$(MAKE) -f CMakeFiles/quickSort.dir/build.make CMakeFiles/quickSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/jguo/Nutstore Files/我的坚果云/C_ws/build/CMakeFiles" --progress-num=9,10 "Built target quickSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" --progress-num=11,12 "Built target quickSort"
 .PHONY : CMakeFiles/quickSort.dir/all
 
 # Include target in all.
@@ -113,9 +76,9 @@ all: CMakeFiles/quickSort.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/quickSort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/我的坚果云/C_ws/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/quickSort.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/我的坚果云/C_ws/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" 0
 .PHONY : CMakeFiles/quickSort.dir/rule
 
 # Convenience name for target.
@@ -134,13 +97,50 @@ clean: CMakeFiles/quickSort.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/merge.dir
+
+# All Build rule for target.
+CMakeFiles/merge.dir/all:
+	$(MAKE) -f CMakeFiles/merge.dir/build.make CMakeFiles/merge.dir/depend
+	$(MAKE) -f CMakeFiles/merge.dir/build.make CMakeFiles/merge.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" --progress-num=5,6 "Built target merge"
+.PHONY : CMakeFiles/merge.dir/all
+
+# Include target in all.
+all: CMakeFiles/merge.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/merge.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/merge.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" 0
+.PHONY : CMakeFiles/merge.dir/rule
+
+# Convenience name for target.
+merge: CMakeFiles/merge.dir/rule
+
+.PHONY : merge
+
+# clean rule for target.
+CMakeFiles/merge.dir/clean:
+	$(MAKE) -f CMakeFiles/merge.dir/build.make CMakeFiles/merge.dir/clean
+.PHONY : CMakeFiles/merge.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/merge.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/insertSort.dir
 
 # All Build rule for target.
 CMakeFiles/insertSort.dir/all:
 	$(MAKE) -f CMakeFiles/insertSort.dir/build.make CMakeFiles/insertSort.dir/depend
 	$(MAKE) -f CMakeFiles/insertSort.dir/build.make CMakeFiles/insertSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/jguo/Nutstore Files/我的坚果云/C_ws/build/CMakeFiles" --progress-num=3,4 "Built target insertSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" --progress-num=3,4 "Built target insertSort"
 .PHONY : CMakeFiles/insertSort.dir/all
 
 # Include target in all.
@@ -150,9 +150,9 @@ all: CMakeFiles/insertSort.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/insertSort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/我的坚果云/C_ws/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/insertSort.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/我的坚果云/C_ws/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" 0
 .PHONY : CMakeFiles/insertSort.dir/rule
 
 # Convenience name for target.
@@ -177,7 +177,7 @@ clean: CMakeFiles/insertSort.dir/clean
 CMakeFiles/mergeSort.dir/all:
 	$(MAKE) -f CMakeFiles/mergeSort.dir/build.make CMakeFiles/mergeSort.dir/depend
 	$(MAKE) -f CMakeFiles/mergeSort.dir/build.make CMakeFiles/mergeSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/jguo/Nutstore Files/我的坚果云/C_ws/build/CMakeFiles" --progress-num=7,8 "Built target mergeSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" --progress-num=7,8 "Built target mergeSort"
 .PHONY : CMakeFiles/mergeSort.dir/all
 
 # Include target in all.
@@ -187,9 +187,9 @@ all: CMakeFiles/mergeSort.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mergeSort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/我的坚果云/C_ws/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mergeSort.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/我的坚果云/C_ws/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" 0
 .PHONY : CMakeFiles/mergeSort.dir/rule
 
 # Convenience name for target.
@@ -208,13 +208,50 @@ clean: CMakeFiles/mergeSort.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/mergeVector.dir
+
+# All Build rule for target.
+CMakeFiles/mergeVector.dir/all:
+	$(MAKE) -f CMakeFiles/mergeVector.dir/build.make CMakeFiles/mergeVector.dir/depend
+	$(MAKE) -f CMakeFiles/mergeVector.dir/build.make CMakeFiles/mergeVector.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" --progress-num=9,10 "Built target mergeVector"
+.PHONY : CMakeFiles/mergeVector.dir/all
+
+# Include target in all.
+all: CMakeFiles/mergeVector.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/mergeVector.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mergeVector.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" 0
+.PHONY : CMakeFiles/mergeVector.dir/rule
+
+# Convenience name for target.
+mergeVector: CMakeFiles/mergeVector.dir/rule
+
+.PHONY : mergeVector
+
+# clean rule for target.
+CMakeFiles/mergeVector.dir/clean:
+	$(MAKE) -f CMakeFiles/mergeVector.dir/build.make CMakeFiles/mergeVector.dir/clean
+.PHONY : CMakeFiles/mergeVector.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/mergeVector.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/selectionSort.dir
 
 # All Build rule for target.
 CMakeFiles/selectionSort.dir/all:
 	$(MAKE) -f CMakeFiles/selectionSort.dir/build.make CMakeFiles/selectionSort.dir/depend
 	$(MAKE) -f CMakeFiles/selectionSort.dir/build.make CMakeFiles/selectionSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/jguo/Nutstore Files/我的坚果云/C_ws/build/CMakeFiles" --progress-num=11,12 "Built target selectionSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" --progress-num=13,14 "Built target selectionSort"
 .PHONY : CMakeFiles/selectionSort.dir/all
 
 # Include target in all.
@@ -224,9 +261,9 @@ all: CMakeFiles/selectionSort.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/selectionSort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/我的坚果云/C_ws/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/selectionSort.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/我的坚果云/C_ws/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" 0
 .PHONY : CMakeFiles/selectionSort.dir/rule
 
 # Convenience name for target.
@@ -251,7 +288,7 @@ clean: CMakeFiles/selectionSort.dir/clean
 CMakeFiles/divideANDconquer.dir/all:
 	$(MAKE) -f CMakeFiles/divideANDconquer.dir/build.make CMakeFiles/divideANDconquer.dir/depend
 	$(MAKE) -f CMakeFiles/divideANDconquer.dir/build.make CMakeFiles/divideANDconquer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/jguo/Nutstore Files/我的坚果云/C_ws/build/CMakeFiles" --progress-num=1,2 "Built target divideANDconquer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" --progress-num=1,2 "Built target divideANDconquer"
 .PHONY : CMakeFiles/divideANDconquer.dir/all
 
 # Include target in all.
@@ -261,9 +298,9 @@ all: CMakeFiles/divideANDconquer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/divideANDconquer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/我的坚果云/C_ws/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/divideANDconquer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/我的坚果云/C_ws/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" 0
 .PHONY : CMakeFiles/divideANDconquer.dir/rule
 
 # Convenience name for target.

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jguo/Nutstore Files/我的坚果云/C_ws/sort/selectionSort.cpp" "/home/jguo/Nutstore Files/我的坚果云/C_ws/build/CMakeFiles/selectionSort.dir/sort/selectionSort.cpp.o"
+  "/home/jguo/Nutstore Files/坚果云/C_ws/sort/selectionSort.cpp" "/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles/selectionSort.dir/sort/selectionSort.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
