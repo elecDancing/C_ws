@@ -16,17 +16,17 @@ include_directories(include)
 # add_executable(findMaxSubArr array/findMaxSubArr.cpp)
 
 
-add_executable(insertSort sort/insertSort.cpp)
-add_executable(merge sort/merge.cpp)
-add_executable(mergeSort sort/mergeSort.cpp)
-add_executable(mergeVector sort/mergeVector.cpp)
+# add_executable(insertSort sort/insertSort.cpp)
+# add_executable(merge sort/merge.cpp)
+# add_executable(mergeSort sort/mergeSort.cpp)
+# add_executable(mergeVector sort/mergeVector.cpp)
 
-add_executable(selectionSort sort/selectionSort.cpp)
-# add_executable(bubbleSort sort/bubbleSort.cpp)
-add_executable(divideANDconquer sort/divideANDconquer.cpp)
-add_executable(quickSort sort/quickSort.cpp)
+# add_executable(selectionSort sort/selectionSort.cpp)
+# # add_executable(bubbleSort sort/bubbleSort.cpp)
+# add_executable(divideANDconquer sort/divideANDconquer.cpp)
+# add_executable(quickSort sort/quickSort.cpp)
 
-
+add_executable(creatABST tree/creatABST.cpp)
 
 # add_executable(bubblesort1A chapter1/bubblesort1A.cpp)
 # add_executable(creatAList linkedList/creatAList.cpp)

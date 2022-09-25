@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = "/home/jguo/Nutstore Files/坚果云/C_ws/build"
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,284 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named quickSort
+# Target rules for targets named creatABST
 
 # Build rule for target.
-quickSort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 quickSort
-.PHONY : quickSort
+creatABST: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 creatABST
+.PHONY : creatABST
 
 # fast build rule for target.
-quickSort/fast:
-	$(MAKE) -f CMakeFiles/quickSort.dir/build.make CMakeFiles/quickSort.dir/build
-.PHONY : quickSort/fast
+creatABST/fast:
+	$(MAKE) -f CMakeFiles/creatABST.dir/build.make CMakeFiles/creatABST.dir/build
+.PHONY : creatABST/fast
 
-#=============================================================================
-# Target rules for targets named merge
+tree/creatABST.o: tree/creatABST.cpp.o
 
-# Build rule for target.
-merge: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 merge
-.PHONY : merge
-
-# fast build rule for target.
-merge/fast:
-	$(MAKE) -f CMakeFiles/merge.dir/build.make CMakeFiles/merge.dir/build
-.PHONY : merge/fast
-
-#=============================================================================
-# Target rules for targets named insertSort
-
-# Build rule for target.
-insertSort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 insertSort
-.PHONY : insertSort
-
-# fast build rule for target.
-insertSort/fast:
-	$(MAKE) -f CMakeFiles/insertSort.dir/build.make CMakeFiles/insertSort.dir/build
-.PHONY : insertSort/fast
-
-#=============================================================================
-# Target rules for targets named mergeSort
-
-# Build rule for target.
-mergeSort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mergeSort
-.PHONY : mergeSort
-
-# fast build rule for target.
-mergeSort/fast:
-	$(MAKE) -f CMakeFiles/mergeSort.dir/build.make CMakeFiles/mergeSort.dir/build
-.PHONY : mergeSort/fast
-
-#=============================================================================
-# Target rules for targets named mergeVector
-
-# Build rule for target.
-mergeVector: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mergeVector
-.PHONY : mergeVector
-
-# fast build rule for target.
-mergeVector/fast:
-	$(MAKE) -f CMakeFiles/mergeVector.dir/build.make CMakeFiles/mergeVector.dir/build
-.PHONY : mergeVector/fast
-
-#=============================================================================
-# Target rules for targets named selectionSort
-
-# Build rule for target.
-selectionSort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 selectionSort
-.PHONY : selectionSort
-
-# fast build rule for target.
-selectionSort/fast:
-	$(MAKE) -f CMakeFiles/selectionSort.dir/build.make CMakeFiles/selectionSort.dir/build
-.PHONY : selectionSort/fast
-
-#=============================================================================
-# Target rules for targets named divideANDconquer
-
-# Build rule for target.
-divideANDconquer: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 divideANDconquer
-.PHONY : divideANDconquer
-
-# fast build rule for target.
-divideANDconquer/fast:
-	$(MAKE) -f CMakeFiles/divideANDconquer.dir/build.make CMakeFiles/divideANDconquer.dir/build
-.PHONY : divideANDconquer/fast
-
-sort/divideANDconquer.o: sort/divideANDconquer.cpp.o
-
-.PHONY : sort/divideANDconquer.o
+.PHONY : tree/creatABST.o
 
 # target to build an object file
-sort/divideANDconquer.cpp.o:
-	$(MAKE) -f CMakeFiles/divideANDconquer.dir/build.make CMakeFiles/divideANDconquer.dir/sort/divideANDconquer.cpp.o
-.PHONY : sort/divideANDconquer.cpp.o
+tree/creatABST.cpp.o:
+	$(MAKE) -f CMakeFiles/creatABST.dir/build.make CMakeFiles/creatABST.dir/tree/creatABST.cpp.o
+.PHONY : tree/creatABST.cpp.o
 
-sort/divideANDconquer.i: sort/divideANDconquer.cpp.i
+tree/creatABST.i: tree/creatABST.cpp.i
 
-.PHONY : sort/divideANDconquer.i
-
-# target to preprocess a source file
-sort/divideANDconquer.cpp.i:
-	$(MAKE) -f CMakeFiles/divideANDconquer.dir/build.make CMakeFiles/divideANDconquer.dir/sort/divideANDconquer.cpp.i
-.PHONY : sort/divideANDconquer.cpp.i
-
-sort/divideANDconquer.s: sort/divideANDconquer.cpp.s
-
-.PHONY : sort/divideANDconquer.s
-
-# target to generate assembly for a file
-sort/divideANDconquer.cpp.s:
-	$(MAKE) -f CMakeFiles/divideANDconquer.dir/build.make CMakeFiles/divideANDconquer.dir/sort/divideANDconquer.cpp.s
-.PHONY : sort/divideANDconquer.cpp.s
-
-sort/insertSort.o: sort/insertSort.cpp.o
-
-.PHONY : sort/insertSort.o
-
-# target to build an object file
-sort/insertSort.cpp.o:
-	$(MAKE) -f CMakeFiles/insertSort.dir/build.make CMakeFiles/insertSort.dir/sort/insertSort.cpp.o
-.PHONY : sort/insertSort.cpp.o
-
-sort/insertSort.i: sort/insertSort.cpp.i
-
-.PHONY : sort/insertSort.i
+.PHONY : tree/creatABST.i
 
 # target to preprocess a source file
-sort/insertSort.cpp.i:
-	$(MAKE) -f CMakeFiles/insertSort.dir/build.make CMakeFiles/insertSort.dir/sort/insertSort.cpp.i
-.PHONY : sort/insertSort.cpp.i
+tree/creatABST.cpp.i:
+	$(MAKE) -f CMakeFiles/creatABST.dir/build.make CMakeFiles/creatABST.dir/tree/creatABST.cpp.i
+.PHONY : tree/creatABST.cpp.i
 
-sort/insertSort.s: sort/insertSort.cpp.s
+tree/creatABST.s: tree/creatABST.cpp.s
 
-.PHONY : sort/insertSort.s
-
-# target to generate assembly for a file
-sort/insertSort.cpp.s:
-	$(MAKE) -f CMakeFiles/insertSort.dir/build.make CMakeFiles/insertSort.dir/sort/insertSort.cpp.s
-.PHONY : sort/insertSort.cpp.s
-
-sort/merge.o: sort/merge.cpp.o
-
-.PHONY : sort/merge.o
-
-# target to build an object file
-sort/merge.cpp.o:
-	$(MAKE) -f CMakeFiles/merge.dir/build.make CMakeFiles/merge.dir/sort/merge.cpp.o
-.PHONY : sort/merge.cpp.o
-
-sort/merge.i: sort/merge.cpp.i
-
-.PHONY : sort/merge.i
-
-# target to preprocess a source file
-sort/merge.cpp.i:
-	$(MAKE) -f CMakeFiles/merge.dir/build.make CMakeFiles/merge.dir/sort/merge.cpp.i
-.PHONY : sort/merge.cpp.i
-
-sort/merge.s: sort/merge.cpp.s
-
-.PHONY : sort/merge.s
+.PHONY : tree/creatABST.s
 
 # target to generate assembly for a file
-sort/merge.cpp.s:
-	$(MAKE) -f CMakeFiles/merge.dir/build.make CMakeFiles/merge.dir/sort/merge.cpp.s
-.PHONY : sort/merge.cpp.s
-
-sort/mergeSort.o: sort/mergeSort.cpp.o
-
-.PHONY : sort/mergeSort.o
-
-# target to build an object file
-sort/mergeSort.cpp.o:
-	$(MAKE) -f CMakeFiles/mergeSort.dir/build.make CMakeFiles/mergeSort.dir/sort/mergeSort.cpp.o
-.PHONY : sort/mergeSort.cpp.o
-
-sort/mergeSort.i: sort/mergeSort.cpp.i
-
-.PHONY : sort/mergeSort.i
-
-# target to preprocess a source file
-sort/mergeSort.cpp.i:
-	$(MAKE) -f CMakeFiles/mergeSort.dir/build.make CMakeFiles/mergeSort.dir/sort/mergeSort.cpp.i
-.PHONY : sort/mergeSort.cpp.i
-
-sort/mergeSort.s: sort/mergeSort.cpp.s
-
-.PHONY : sort/mergeSort.s
-
-# target to generate assembly for a file
-sort/mergeSort.cpp.s:
-	$(MAKE) -f CMakeFiles/mergeSort.dir/build.make CMakeFiles/mergeSort.dir/sort/mergeSort.cpp.s
-.PHONY : sort/mergeSort.cpp.s
-
-sort/mergeVector.o: sort/mergeVector.cpp.o
-
-.PHONY : sort/mergeVector.o
-
-# target to build an object file
-sort/mergeVector.cpp.o:
-	$(MAKE) -f CMakeFiles/mergeVector.dir/build.make CMakeFiles/mergeVector.dir/sort/mergeVector.cpp.o
-.PHONY : sort/mergeVector.cpp.o
-
-sort/mergeVector.i: sort/mergeVector.cpp.i
-
-.PHONY : sort/mergeVector.i
-
-# target to preprocess a source file
-sort/mergeVector.cpp.i:
-	$(MAKE) -f CMakeFiles/mergeVector.dir/build.make CMakeFiles/mergeVector.dir/sort/mergeVector.cpp.i
-.PHONY : sort/mergeVector.cpp.i
-
-sort/mergeVector.s: sort/mergeVector.cpp.s
-
-.PHONY : sort/mergeVector.s
-
-# target to generate assembly for a file
-sort/mergeVector.cpp.s:
-	$(MAKE) -f CMakeFiles/mergeVector.dir/build.make CMakeFiles/mergeVector.dir/sort/mergeVector.cpp.s
-.PHONY : sort/mergeVector.cpp.s
-
-sort/quickSort.o: sort/quickSort.cpp.o
-
-.PHONY : sort/quickSort.o
-
-# target to build an object file
-sort/quickSort.cpp.o:
-	$(MAKE) -f CMakeFiles/quickSort.dir/build.make CMakeFiles/quickSort.dir/sort/quickSort.cpp.o
-.PHONY : sort/quickSort.cpp.o
-
-sort/quickSort.i: sort/quickSort.cpp.i
-
-.PHONY : sort/quickSort.i
-
-# target to preprocess a source file
-sort/quickSort.cpp.i:
-	$(MAKE) -f CMakeFiles/quickSort.dir/build.make CMakeFiles/quickSort.dir/sort/quickSort.cpp.i
-.PHONY : sort/quickSort.cpp.i
-
-sort/quickSort.s: sort/quickSort.cpp.s
-
-.PHONY : sort/quickSort.s
-
-# target to generate assembly for a file
-sort/quickSort.cpp.s:
-	$(MAKE) -f CMakeFiles/quickSort.dir/build.make CMakeFiles/quickSort.dir/sort/quickSort.cpp.s
-.PHONY : sort/quickSort.cpp.s
-
-sort/selectionSort.o: sort/selectionSort.cpp.o
-
-.PHONY : sort/selectionSort.o
-
-# target to build an object file
-sort/selectionSort.cpp.o:
-	$(MAKE) -f CMakeFiles/selectionSort.dir/build.make CMakeFiles/selectionSort.dir/sort/selectionSort.cpp.o
-.PHONY : sort/selectionSort.cpp.o
-
-sort/selectionSort.i: sort/selectionSort.cpp.i
-
-.PHONY : sort/selectionSort.i
-
-# target to preprocess a source file
-sort/selectionSort.cpp.i:
-	$(MAKE) -f CMakeFiles/selectionSort.dir/build.make CMakeFiles/selectionSort.dir/sort/selectionSort.cpp.i
-.PHONY : sort/selectionSort.cpp.i
-
-sort/selectionSort.s: sort/selectionSort.cpp.s
-
-.PHONY : sort/selectionSort.s
-
-# target to generate assembly for a file
-sort/selectionSort.cpp.s:
-	$(MAKE) -f CMakeFiles/selectionSort.dir/build.make CMakeFiles/selectionSort.dir/sort/selectionSort.cpp.s
-.PHONY : sort/selectionSort.cpp.s
+tree/creatABST.cpp.s:
+	$(MAKE) -f CMakeFiles/creatABST.dir/build.make CMakeFiles/creatABST.dir/tree/creatABST.cpp.s
+.PHONY : tree/creatABST.cpp.s
 
 # Help Target
 help:
@@ -396,36 +156,12 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
-	@echo "... quickSort"
-	@echo "... merge"
-	@echo "... insertSort"
-	@echo "... mergeSort"
-	@echo "... mergeVector"
-	@echo "... selectionSort"
 	@echo "... rebuild_cache"
-	@echo "... divideANDconquer"
-	@echo "... sort/divideANDconquer.o"
-	@echo "... sort/divideANDconquer.i"
-	@echo "... sort/divideANDconquer.s"
-	@echo "... sort/insertSort.o"
-	@echo "... sort/insertSort.i"
-	@echo "... sort/insertSort.s"
-	@echo "... sort/merge.o"
-	@echo "... sort/merge.i"
-	@echo "... sort/merge.s"
-	@echo "... sort/mergeSort.o"
-	@echo "... sort/mergeSort.i"
-	@echo "... sort/mergeSort.s"
-	@echo "... sort/mergeVector.o"
-	@echo "... sort/mergeVector.i"
-	@echo "... sort/mergeVector.s"
-	@echo "... sort/quickSort.o"
-	@echo "... sort/quickSort.i"
-	@echo "... sort/quickSort.s"
-	@echo "... sort/selectionSort.o"
-	@echo "... sort/selectionSort.i"
-	@echo "... sort/selectionSort.s"
+	@echo "... creatABST"
+	@echo "... edit_cache"
+	@echo "... tree/creatABST.o"
+	@echo "... tree/creatABST.i"
+	@echo "... tree/creatABST.s"
 .PHONY : help
 
 
