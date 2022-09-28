@@ -4,7 +4,7 @@
  * @Author: xp.Zhang
  * @Date: 2022-09-27 21:07:01
  * @LastEditors: xp.Zhang
- * @LastEditTime: 2022-09-28 10:08:47
+ * @LastEditTime: 2022-09-28 10:31:48
  */
 /* Deleting a node from Binary search tree */
 #include<iostream>
