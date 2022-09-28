@@ -27,6 +27,16 @@ include_directories(include)
 # add_executable(quickSort sort/quickSort.cpp)
 
 add_executable(creatABST tree/creatABST.cpp)
+add_executable(findMinMaxinTree tree/findMinMaxinTree.cpp)
+add_executable(breadthFirstAndDepthFirst tree/breadthFirstAndDepthFirst.cpp)
+add_executable(deleteANodeinTree tree/deleteANodeinTree.cpp)
+add_executable(findHeightInTree tree/findHeightInTree.cpp)
+add_executable(isBinarySearchTree tree/isBinarySearchTree.cpp)
+
+
+
+
+
 
 # add_executable(bubblesort1A chapter1/bubblesort1A.cpp)
 # add_executable(creatAList linkedList/creatAList.cpp)

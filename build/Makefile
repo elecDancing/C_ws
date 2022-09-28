@@ -123,6 +123,98 @@ creatABST/fast:
 	$(MAKE) -f CMakeFiles/creatABST.dir/build.make CMakeFiles/creatABST.dir/build
 .PHONY : creatABST/fast
 
+#=============================================================================
+# Target rules for targets named breadthFirstAndDepthFirst
+
+# Build rule for target.
+breadthFirstAndDepthFirst: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 breadthFirstAndDepthFirst
+.PHONY : breadthFirstAndDepthFirst
+
+# fast build rule for target.
+breadthFirstAndDepthFirst/fast:
+	$(MAKE) -f CMakeFiles/breadthFirstAndDepthFirst.dir/build.make CMakeFiles/breadthFirstAndDepthFirst.dir/build
+.PHONY : breadthFirstAndDepthFirst/fast
+
+#=============================================================================
+# Target rules for targets named findMinMaxinTree
+
+# Build rule for target.
+findMinMaxinTree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 findMinMaxinTree
+.PHONY : findMinMaxinTree
+
+# fast build rule for target.
+findMinMaxinTree/fast:
+	$(MAKE) -f CMakeFiles/findMinMaxinTree.dir/build.make CMakeFiles/findMinMaxinTree.dir/build
+.PHONY : findMinMaxinTree/fast
+
+#=============================================================================
+# Target rules for targets named deleteANodeinTree
+
+# Build rule for target.
+deleteANodeinTree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 deleteANodeinTree
+.PHONY : deleteANodeinTree
+
+# fast build rule for target.
+deleteANodeinTree/fast:
+	$(MAKE) -f CMakeFiles/deleteANodeinTree.dir/build.make CMakeFiles/deleteANodeinTree.dir/build
+.PHONY : deleteANodeinTree/fast
+
+#=============================================================================
+# Target rules for targets named findHeightInTree
+
+# Build rule for target.
+findHeightInTree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 findHeightInTree
+.PHONY : findHeightInTree
+
+# fast build rule for target.
+findHeightInTree/fast:
+	$(MAKE) -f CMakeFiles/findHeightInTree.dir/build.make CMakeFiles/findHeightInTree.dir/build
+.PHONY : findHeightInTree/fast
+
+#=============================================================================
+# Target rules for targets named isBinarySearchTree
+
+# Build rule for target.
+isBinarySearchTree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 isBinarySearchTree
+.PHONY : isBinarySearchTree
+
+# fast build rule for target.
+isBinarySearchTree/fast:
+	$(MAKE) -f CMakeFiles/isBinarySearchTree.dir/build.make CMakeFiles/isBinarySearchTree.dir/build
+.PHONY : isBinarySearchTree/fast
+
+tree/breadthFirstAndDepthFirst.o: tree/breadthFirstAndDepthFirst.cpp.o
+
+.PHONY : tree/breadthFirstAndDepthFirst.o
+
+# target to build an object file
+tree/breadthFirstAndDepthFirst.cpp.o:
+	$(MAKE) -f CMakeFiles/breadthFirstAndDepthFirst.dir/build.make CMakeFiles/breadthFirstAndDepthFirst.dir/tree/breadthFirstAndDepthFirst.cpp.o
+.PHONY : tree/breadthFirstAndDepthFirst.cpp.o
+
+tree/breadthFirstAndDepthFirst.i: tree/breadthFirstAndDepthFirst.cpp.i
+
+.PHONY : tree/breadthFirstAndDepthFirst.i
+
+# target to preprocess a source file
+tree/breadthFirstAndDepthFirst.cpp.i:
+	$(MAKE) -f CMakeFiles/breadthFirstAndDepthFirst.dir/build.make CMakeFiles/breadthFirstAndDepthFirst.dir/tree/breadthFirstAndDepthFirst.cpp.i
+.PHONY : tree/breadthFirstAndDepthFirst.cpp.i
+
+tree/breadthFirstAndDepthFirst.s: tree/breadthFirstAndDepthFirst.cpp.s
+
+.PHONY : tree/breadthFirstAndDepthFirst.s
+
+# target to generate assembly for a file
+tree/breadthFirstAndDepthFirst.cpp.s:
+	$(MAKE) -f CMakeFiles/breadthFirstAndDepthFirst.dir/build.make CMakeFiles/breadthFirstAndDepthFirst.dir/tree/breadthFirstAndDepthFirst.cpp.s
+.PHONY : tree/breadthFirstAndDepthFirst.cpp.s
+
 tree/creatABST.o: tree/creatABST.cpp.o
 
 .PHONY : tree/creatABST.o
@@ -150,6 +242,114 @@ tree/creatABST.cpp.s:
 	$(MAKE) -f CMakeFiles/creatABST.dir/build.make CMakeFiles/creatABST.dir/tree/creatABST.cpp.s
 .PHONY : tree/creatABST.cpp.s
 
+tree/deleteANodeinTree.o: tree/deleteANodeinTree.cpp.o
+
+.PHONY : tree/deleteANodeinTree.o
+
+# target to build an object file
+tree/deleteANodeinTree.cpp.o:
+	$(MAKE) -f CMakeFiles/deleteANodeinTree.dir/build.make CMakeFiles/deleteANodeinTree.dir/tree/deleteANodeinTree.cpp.o
+.PHONY : tree/deleteANodeinTree.cpp.o
+
+tree/deleteANodeinTree.i: tree/deleteANodeinTree.cpp.i
+
+.PHONY : tree/deleteANodeinTree.i
+
+# target to preprocess a source file
+tree/deleteANodeinTree.cpp.i:
+	$(MAKE) -f CMakeFiles/deleteANodeinTree.dir/build.make CMakeFiles/deleteANodeinTree.dir/tree/deleteANodeinTree.cpp.i
+.PHONY : tree/deleteANodeinTree.cpp.i
+
+tree/deleteANodeinTree.s: tree/deleteANodeinTree.cpp.s
+
+.PHONY : tree/deleteANodeinTree.s
+
+# target to generate assembly for a file
+tree/deleteANodeinTree.cpp.s:
+	$(MAKE) -f CMakeFiles/deleteANodeinTree.dir/build.make CMakeFiles/deleteANodeinTree.dir/tree/deleteANodeinTree.cpp.s
+.PHONY : tree/deleteANodeinTree.cpp.s
+
+tree/findHeightInTree.o: tree/findHeightInTree.cpp.o
+
+.PHONY : tree/findHeightInTree.o
+
+# target to build an object file
+tree/findHeightInTree.cpp.o:
+	$(MAKE) -f CMakeFiles/findHeightInTree.dir/build.make CMakeFiles/findHeightInTree.dir/tree/findHeightInTree.cpp.o
+.PHONY : tree/findHeightInTree.cpp.o
+
+tree/findHeightInTree.i: tree/findHeightInTree.cpp.i
+
+.PHONY : tree/findHeightInTree.i
+
+# target to preprocess a source file
+tree/findHeightInTree.cpp.i:
+	$(MAKE) -f CMakeFiles/findHeightInTree.dir/build.make CMakeFiles/findHeightInTree.dir/tree/findHeightInTree.cpp.i
+.PHONY : tree/findHeightInTree.cpp.i
+
+tree/findHeightInTree.s: tree/findHeightInTree.cpp.s
+
+.PHONY : tree/findHeightInTree.s
+
+# target to generate assembly for a file
+tree/findHeightInTree.cpp.s:
+	$(MAKE) -f CMakeFiles/findHeightInTree.dir/build.make CMakeFiles/findHeightInTree.dir/tree/findHeightInTree.cpp.s
+.PHONY : tree/findHeightInTree.cpp.s
+
+tree/findMinMaxinTree.o: tree/findMinMaxinTree.cpp.o
+
+.PHONY : tree/findMinMaxinTree.o
+
+# target to build an object file
+tree/findMinMaxinTree.cpp.o:
+	$(MAKE) -f CMakeFiles/findMinMaxinTree.dir/build.make CMakeFiles/findMinMaxinTree.dir/tree/findMinMaxinTree.cpp.o
+.PHONY : tree/findMinMaxinTree.cpp.o
+
+tree/findMinMaxinTree.i: tree/findMinMaxinTree.cpp.i
+
+.PHONY : tree/findMinMaxinTree.i
+
+# target to preprocess a source file
+tree/findMinMaxinTree.cpp.i:
+	$(MAKE) -f CMakeFiles/findMinMaxinTree.dir/build.make CMakeFiles/findMinMaxinTree.dir/tree/findMinMaxinTree.cpp.i
+.PHONY : tree/findMinMaxinTree.cpp.i
+
+tree/findMinMaxinTree.s: tree/findMinMaxinTree.cpp.s
+
+.PHONY : tree/findMinMaxinTree.s
+
+# target to generate assembly for a file
+tree/findMinMaxinTree.cpp.s:
+	$(MAKE) -f CMakeFiles/findMinMaxinTree.dir/build.make CMakeFiles/findMinMaxinTree.dir/tree/findMinMaxinTree.cpp.s
+.PHONY : tree/findMinMaxinTree.cpp.s
+
+tree/isBinarySearchTree.o: tree/isBinarySearchTree.cpp.o
+
+.PHONY : tree/isBinarySearchTree.o
+
+# target to build an object file
+tree/isBinarySearchTree.cpp.o:
+	$(MAKE) -f CMakeFiles/isBinarySearchTree.dir/build.make CMakeFiles/isBinarySearchTree.dir/tree/isBinarySearchTree.cpp.o
+.PHONY : tree/isBinarySearchTree.cpp.o
+
+tree/isBinarySearchTree.i: tree/isBinarySearchTree.cpp.i
+
+.PHONY : tree/isBinarySearchTree.i
+
+# target to preprocess a source file
+tree/isBinarySearchTree.cpp.i:
+	$(MAKE) -f CMakeFiles/isBinarySearchTree.dir/build.make CMakeFiles/isBinarySearchTree.dir/tree/isBinarySearchTree.cpp.i
+.PHONY : tree/isBinarySearchTree.cpp.i
+
+tree/isBinarySearchTree.s: tree/isBinarySearchTree.cpp.s
+
+.PHONY : tree/isBinarySearchTree.s
+
+# target to generate assembly for a file
+tree/isBinarySearchTree.cpp.s:
+	$(MAKE) -f CMakeFiles/isBinarySearchTree.dir/build.make CMakeFiles/isBinarySearchTree.dir/tree/isBinarySearchTree.cpp.s
+.PHONY : tree/isBinarySearchTree.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -157,11 +357,31 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... creatABST"
 	@echo "... edit_cache"
+	@echo "... creatABST"
+	@echo "... breadthFirstAndDepthFirst"
+	@echo "... findMinMaxinTree"
+	@echo "... deleteANodeinTree"
+	@echo "... findHeightInTree"
+	@echo "... isBinarySearchTree"
+	@echo "... tree/breadthFirstAndDepthFirst.o"
+	@echo "... tree/breadthFirstAndDepthFirst.i"
+	@echo "... tree/breadthFirstAndDepthFirst.s"
 	@echo "... tree/creatABST.o"
 	@echo "... tree/creatABST.i"
 	@echo "... tree/creatABST.s"
+	@echo "... tree/deleteANodeinTree.o"
+	@echo "... tree/deleteANodeinTree.i"
+	@echo "... tree/deleteANodeinTree.s"
+	@echo "... tree/findHeightInTree.o"
+	@echo "... tree/findHeightInTree.i"
+	@echo "... tree/findHeightInTree.s"
+	@echo "... tree/findMinMaxinTree.o"
+	@echo "... tree/findMinMaxinTree.i"
+	@echo "... tree/findMinMaxinTree.s"
+	@echo "... tree/isBinarySearchTree.o"
+	@echo "... tree/isBinarySearchTree.i"
+	@echo "... tree/isBinarySearchTree.s"
 .PHONY : help
 
 
