@@ -4,7 +4,7 @@
  * @Author: xp.Zhang
  * @Date: 2022-09-25 09:44:39
  * @LastEditors: xp.Zhang
- * @LastEditTime: 2022-09-27 19:50:13
+ * @LastEditTime: 2022-09-28 19:07:36
  */
 #include<iostream>
 #include<queue>
@@ -62,7 +62,7 @@ void LevelOrder(BstNode* root){
 }
 
 //prorder
-//算法的空间复杂度与树的高度有关O(h)
+//算法的空间复杂度与树的高度有关O (h)
 void Preorder(BstNode* root){
     if(root == NULL) return; //递归基
     cout << root->data << " ";

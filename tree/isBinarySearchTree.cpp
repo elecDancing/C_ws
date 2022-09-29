@@ -4,7 +4,7 @@
  * @Author: xp.Zhang
  * @Date: 2022-09-25 09:44:39
  * @LastEditors: xp.Zhang
- * @LastEditTime: 2022-09-28 10:01:34
+ * @LastEditTime: 2022-09-28 19:07:15
  */
 #include<iostream>
 
@@ -72,13 +72,13 @@ bool IsBinarySearchTree(BstNode* root){
 
 //!与其写这样三个函数
 //!我们可以找到左子树的最大值和右子树的最小值和root->data比较
-bool IsBstUtil(BstNode* root,int minValue, int maxValue){
+bool IsBinarySearchTree(BstNode* root,int minValue, int maxValue){
     if (root == NULL)
         return true;
     if(root->data > minValue
         && root->data < maxValue
-        &&IsBstUtil(root->left,minValue, root->data)
-        &&IsBstUtil(root->right, root->data, maxValue))
+        &&IsBinarySearchTree(root->left,minValue, root->data)
+        &&IsBinarySearchTree(root->right, root->data, maxValue))
         return true;
     else
         return false;
@@ -93,5 +93,7 @@ root = Insert(root, 20);
 root = Insert(root, 25);
 root = Insert(root, 8);
 root = Insert(root, 12);
-cout << IsBinarySearchTree(root);
+
+
+    
 }

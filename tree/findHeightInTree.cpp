@@ -4,7 +4,7 @@
  * @Author: xp.Zhang
  * @Date: 2022-09-25 09:44:39
  * @LastEditors: xp.Zhang
- * @LastEditTime: 2022-09-25 11:42:14
+ * @LastEditTime: 2022-09-28 19:09:27
  */
 #include<iostream>
 using namespace std;
@@ -62,4 +62,12 @@ root = Insert(root, 12);
 
 
     
+}
+
+
+struct TreeNode{
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode(int x): val(x),left(NULL),right(NULL){}
 }
