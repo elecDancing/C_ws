@@ -1,0 +1,53 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: xp.Zhang
+ * @Date: 2022-10-08 16:47:29
+ * @LastEditors: xp.Zhang
+ * @LastEditTime: 2022-10-08 20:24:36
+-->
+<!DOCTYPE html>
+<html >
+<head>
+    <title> Hello world !</title>
+</head>
+<body  style ="text-align: center">
+    <p> <strong>Hello</strong> body! </p>
+    <p>
+        <h1>你好</h1>
+        <h4>hello</h4>
+    </p>
+    <p> <img alt = "photo of me" src = "R.jpeg"> </p>
+    <p>
+    Visit <a href = "https://www.bilibili.com/"> Bilibili </a>
+</p>
+    <p>
+        <form action = "https://www.google.com/search" method = "get">
+            <input name = "q" type = "text">
+            <input type = "submit" value = "searchMe">
+        </form>
+    </p>
+
+    <header style = "font-size:large; ">
+        Zhang XuePeng
+    </header>
+    <main style = "font-size: medium;">
+        Welcome to my home page!
+    </main>
+    <footer style = "font-size: small;">
+        Copyright &#169; Zhang XuePeng
+    </footer>
+
+    <script>
+        function greet(){
+            let name = document.querySelect('#name').value;
+            alert('hello ' + name + '!');
+        }
+
+    </script>
+    <from onsubmit = "greet(); return false;">
+        <input  id = "name" type = "text">
+        <input type = "submit">
+    </from>
+</body>
+</html>
