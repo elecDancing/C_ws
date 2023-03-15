@@ -60,224 +60,39 @@ CMAKE_SOURCE_DIR = "/home/jguo/Nutstore Files/坚果云/C_ws"
 CMAKE_BINARY_DIR = "/home/jguo/Nutstore Files/坚果云/C_ws/build"
 
 #=============================================================================
-# Target rules for target CMakeFiles/creatABST.dir
+# Target rules for target CMakeFiles/recurionFun.dir
 
 # All Build rule for target.
-CMakeFiles/creatABST.dir/all:
-	$(MAKE) -f CMakeFiles/creatABST.dir/build.make CMakeFiles/creatABST.dir/depend
-	$(MAKE) -f CMakeFiles/creatABST.dir/build.make CMakeFiles/creatABST.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" --progress-num=3,4 "Built target creatABST"
-.PHONY : CMakeFiles/creatABST.dir/all
+CMakeFiles/recurionFun.dir/all:
+	$(MAKE) -f CMakeFiles/recurionFun.dir/build.make CMakeFiles/recurionFun.dir/depend
+	$(MAKE) -f CMakeFiles/recurionFun.dir/build.make CMakeFiles/recurionFun.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" --progress-num=1,2 "Built target recurionFun"
+.PHONY : CMakeFiles/recurionFun.dir/all
 
 # Include target in all.
-all: CMakeFiles/creatABST.dir/all
+all: CMakeFiles/recurionFun.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/creatABST.dir/rule: cmake_check_build_system
+CMakeFiles/recurionFun.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/creatABST.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/recurionFun.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" 0
-.PHONY : CMakeFiles/creatABST.dir/rule
+.PHONY : CMakeFiles/recurionFun.dir/rule
 
 # Convenience name for target.
-creatABST: CMakeFiles/creatABST.dir/rule
+recurionFun: CMakeFiles/recurionFun.dir/rule
 
-.PHONY : creatABST
-
-# clean rule for target.
-CMakeFiles/creatABST.dir/clean:
-	$(MAKE) -f CMakeFiles/creatABST.dir/build.make CMakeFiles/creatABST.dir/clean
-.PHONY : CMakeFiles/creatABST.dir/clean
+.PHONY : recurionFun
 
 # clean rule for target.
-clean: CMakeFiles/creatABST.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/breadthFirstAndDepthFirst.dir
-
-# All Build rule for target.
-CMakeFiles/breadthFirstAndDepthFirst.dir/all:
-	$(MAKE) -f CMakeFiles/breadthFirstAndDepthFirst.dir/build.make CMakeFiles/breadthFirstAndDepthFirst.dir/depend
-	$(MAKE) -f CMakeFiles/breadthFirstAndDepthFirst.dir/build.make CMakeFiles/breadthFirstAndDepthFirst.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" --progress-num=1,2 "Built target breadthFirstAndDepthFirst"
-.PHONY : CMakeFiles/breadthFirstAndDepthFirst.dir/all
-
-# Include target in all.
-all: CMakeFiles/breadthFirstAndDepthFirst.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/breadthFirstAndDepthFirst.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/breadthFirstAndDepthFirst.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" 0
-.PHONY : CMakeFiles/breadthFirstAndDepthFirst.dir/rule
-
-# Convenience name for target.
-breadthFirstAndDepthFirst: CMakeFiles/breadthFirstAndDepthFirst.dir/rule
-
-.PHONY : breadthFirstAndDepthFirst
+CMakeFiles/recurionFun.dir/clean:
+	$(MAKE) -f CMakeFiles/recurionFun.dir/build.make CMakeFiles/recurionFun.dir/clean
+.PHONY : CMakeFiles/recurionFun.dir/clean
 
 # clean rule for target.
-CMakeFiles/breadthFirstAndDepthFirst.dir/clean:
-	$(MAKE) -f CMakeFiles/breadthFirstAndDepthFirst.dir/build.make CMakeFiles/breadthFirstAndDepthFirst.dir/clean
-.PHONY : CMakeFiles/breadthFirstAndDepthFirst.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/breadthFirstAndDepthFirst.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/findMinMaxinTree.dir
-
-# All Build rule for target.
-CMakeFiles/findMinMaxinTree.dir/all:
-	$(MAKE) -f CMakeFiles/findMinMaxinTree.dir/build.make CMakeFiles/findMinMaxinTree.dir/depend
-	$(MAKE) -f CMakeFiles/findMinMaxinTree.dir/build.make CMakeFiles/findMinMaxinTree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" --progress-num=9,10 "Built target findMinMaxinTree"
-.PHONY : CMakeFiles/findMinMaxinTree.dir/all
-
-# Include target in all.
-all: CMakeFiles/findMinMaxinTree.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/findMinMaxinTree.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/findMinMaxinTree.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" 0
-.PHONY : CMakeFiles/findMinMaxinTree.dir/rule
-
-# Convenience name for target.
-findMinMaxinTree: CMakeFiles/findMinMaxinTree.dir/rule
-
-.PHONY : findMinMaxinTree
-
-# clean rule for target.
-CMakeFiles/findMinMaxinTree.dir/clean:
-	$(MAKE) -f CMakeFiles/findMinMaxinTree.dir/build.make CMakeFiles/findMinMaxinTree.dir/clean
-.PHONY : CMakeFiles/findMinMaxinTree.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/findMinMaxinTree.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/deleteANodeinTree.dir
-
-# All Build rule for target.
-CMakeFiles/deleteANodeinTree.dir/all:
-	$(MAKE) -f CMakeFiles/deleteANodeinTree.dir/build.make CMakeFiles/deleteANodeinTree.dir/depend
-	$(MAKE) -f CMakeFiles/deleteANodeinTree.dir/build.make CMakeFiles/deleteANodeinTree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" --progress-num=5,6 "Built target deleteANodeinTree"
-.PHONY : CMakeFiles/deleteANodeinTree.dir/all
-
-# Include target in all.
-all: CMakeFiles/deleteANodeinTree.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/deleteANodeinTree.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/deleteANodeinTree.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" 0
-.PHONY : CMakeFiles/deleteANodeinTree.dir/rule
-
-# Convenience name for target.
-deleteANodeinTree: CMakeFiles/deleteANodeinTree.dir/rule
-
-.PHONY : deleteANodeinTree
-
-# clean rule for target.
-CMakeFiles/deleteANodeinTree.dir/clean:
-	$(MAKE) -f CMakeFiles/deleteANodeinTree.dir/build.make CMakeFiles/deleteANodeinTree.dir/clean
-.PHONY : CMakeFiles/deleteANodeinTree.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/deleteANodeinTree.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/findHeightInTree.dir
-
-# All Build rule for target.
-CMakeFiles/findHeightInTree.dir/all:
-	$(MAKE) -f CMakeFiles/findHeightInTree.dir/build.make CMakeFiles/findHeightInTree.dir/depend
-	$(MAKE) -f CMakeFiles/findHeightInTree.dir/build.make CMakeFiles/findHeightInTree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" --progress-num=7,8 "Built target findHeightInTree"
-.PHONY : CMakeFiles/findHeightInTree.dir/all
-
-# Include target in all.
-all: CMakeFiles/findHeightInTree.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/findHeightInTree.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/findHeightInTree.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" 0
-.PHONY : CMakeFiles/findHeightInTree.dir/rule
-
-# Convenience name for target.
-findHeightInTree: CMakeFiles/findHeightInTree.dir/rule
-
-.PHONY : findHeightInTree
-
-# clean rule for target.
-CMakeFiles/findHeightInTree.dir/clean:
-	$(MAKE) -f CMakeFiles/findHeightInTree.dir/build.make CMakeFiles/findHeightInTree.dir/clean
-.PHONY : CMakeFiles/findHeightInTree.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/findHeightInTree.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/isBinarySearchTree.dir
-
-# All Build rule for target.
-CMakeFiles/isBinarySearchTree.dir/all:
-	$(MAKE) -f CMakeFiles/isBinarySearchTree.dir/build.make CMakeFiles/isBinarySearchTree.dir/depend
-	$(MAKE) -f CMakeFiles/isBinarySearchTree.dir/build.make CMakeFiles/isBinarySearchTree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" --progress-num=11,12 "Built target isBinarySearchTree"
-.PHONY : CMakeFiles/isBinarySearchTree.dir/all
-
-# Include target in all.
-all: CMakeFiles/isBinarySearchTree.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/isBinarySearchTree.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/isBinarySearchTree.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jguo/Nutstore Files/坚果云/C_ws/build/CMakeFiles" 0
-.PHONY : CMakeFiles/isBinarySearchTree.dir/rule
-
-# Convenience name for target.
-isBinarySearchTree: CMakeFiles/isBinarySearchTree.dir/rule
-
-.PHONY : isBinarySearchTree
-
-# clean rule for target.
-CMakeFiles/isBinarySearchTree.dir/clean:
-	$(MAKE) -f CMakeFiles/isBinarySearchTree.dir/build.make CMakeFiles/isBinarySearchTree.dir/clean
-.PHONY : CMakeFiles/isBinarySearchTree.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/isBinarySearchTree.dir/clean
+clean: CMakeFiles/recurionFun.dir/clean
 
 .PHONY : clean
 

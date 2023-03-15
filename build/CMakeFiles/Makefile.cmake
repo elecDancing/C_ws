@@ -42,10 +42,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/creatABST.dir/DependInfo.cmake"
-  "CMakeFiles/breadthFirstAndDepthFirst.dir/DependInfo.cmake"
-  "CMakeFiles/findMinMaxinTree.dir/DependInfo.cmake"
-  "CMakeFiles/deleteANodeinTree.dir/DependInfo.cmake"
-  "CMakeFiles/findHeightInTree.dir/DependInfo.cmake"
-  "CMakeFiles/isBinarySearchTree.dir/DependInfo.cmake"
+  "CMakeFiles/recurionFun.dir/DependInfo.cmake"
   )
