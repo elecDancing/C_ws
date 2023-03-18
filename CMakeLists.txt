@@ -32,7 +32,7 @@ include_directories(include)
 # add_executable(deleteANodeinTree tree/deleteANodeinTree.cpp)
 # add_executable(findHeightInTree tree/findHeightInTree.cpp)
 # add_executable(isBinarySearchTree tree/isBinarySearchTree.cpp)
-add_executable(recurionFun study/recurionFun.cpp)
+#add_executable(recurionFun study/recurionFun.cpp)
 
 
 
