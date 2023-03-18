@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/jguo/Nutstore Files/坚果云/C_ws/include" 
+CXX_INCLUDES = -I/home/ubuntu/C_ws/include 
 
